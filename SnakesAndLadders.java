@@ -201,7 +201,7 @@ public class SnakesAndLadders {
 			}
 			count++;
 		}
-		System.out.println(+count);
+		System.out.println("Total number of dice throws made by each player is: " + count);
 		if (playerAPosition >= 100 & playerBPosition >= 100) {
 			System.out.println("It's a tie game");
 
