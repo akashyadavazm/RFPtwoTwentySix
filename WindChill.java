@@ -3,7 +3,8 @@ package day5Problems.functionalPrograms;
 public class WindChill {
 	
 	 public static void main(String[] args) {
-	       Scanner sc = new Scanner(System.in);
+	       
+		Scanner sc = new Scanner(System.in);
 		System.out.println("Give the value of Temprature ranges \n(T<=50) ");
 		String t1 = sc.next();
 		System.out.println("Give the value of WindSpeed ranges \n(3<V<120)");
